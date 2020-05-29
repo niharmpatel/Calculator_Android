@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Button clicked", Toast.LENGTH_SHORT).show();
-                text1.setText("Nihar Patel");
+                text1.setText("Nihar ");
                 startActivity(new Intent(MainActivity.this, ViewData.class));
 
             }
